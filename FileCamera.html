@@ -1,17 +1,14 @@
-﻿@{
-    Layout = null;
-}
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>FileCamera</title>
-    <script src="~/js/jquery-1.9.1.js"></script>
+    <script src="jquery-1.9.1.js"></script>
 </head>
 <body>
-  <input type="file" capture="camera" accept="image/*" onchange="imgChange(event)" id="Upimg"/>
+<input type="file" capture="camera" accept="image/*" onchange="imgChange(event)" id="Upimg"/>
+<input type="file"  accept="image/*" onchange="imgChange(event)" id="Upimg2"/>
     <img src="" id="img" style="margin-top: 20px;display: inline-block;  width: 100px; height: 100px;"/>
 </body>
 </html>
